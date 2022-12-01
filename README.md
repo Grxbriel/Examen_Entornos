@@ -70,6 +70,20 @@ Comprobamos con el `git log --oneline --all` que ya estamos en la actual
 <img width="481" alt="Captura de pantalla 2022-12-01 a las 18 19 22" src="https://user-images.githubusercontent.com/87373226/205121823-0382847f-fe3a-4189-a46d-6d6d82b60b76.png">
 
 
+## Parte C
+
+1- El Working Directory es cuando estás modificando tus archivos sin afectar en nada al repositorio, ahí es cuando si usas `git status` te sale tu archvo en rojo
+
+<img width="551" alt="Captura de pantalla 2022-12-01 a las 18 41 27" src="https://user-images.githubusercontent.com/87373226/205122759-eef94af6-e1aa-41b4-a56c-9d634e8c976c.png">
+
+2- El Stagging area es donde van los archivos despues de que los hayas terminado, se manda al staggin area con `git add .` quedando en un estado preparado
+
+<img width="601" alt="Captura de pantalla 2022-12-01 a las 18 42 51" src="https://user-images.githubusercontent.com/87373226/205123066-1c7bdb71-d22c-471e-97f8-db51c09f9652.png">
+
+Se continua con un `git commit -m <mensaje>`
+
+<img width="425" alt="Captura de pantalla 2022-12-01 a las 18 44 31" src="https://user-images.githubusercontent.com/87373226/205123476-93d9c439-7b3e-4e26-a0a4-9456942a5969.png">
 
 
+3- El git repository es donde se queda todo una vez que has hecho el `git push`, ahí es cuando ya está todo subido definitivamente al repositorio.  
 
