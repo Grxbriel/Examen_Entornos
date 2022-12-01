@@ -87,3 +87,4 @@ Se continua con un `git commit -m <mensaje>`
 
 3- El git repository es donde se queda todo una vez que has hecho el `git push`, ahí es cuando ya está todo subido definitivamente al repositorio.  
 
+<img width="474" alt="Captura de pantalla 2022-12-01 a las 18 47 06" src="https://user-images.githubusercontent.com/87373226/205123984-2c953963-f5c1-46e4-b3b5-3d4c0c8ba139.png">
