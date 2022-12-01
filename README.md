@@ -32,7 +32,44 @@ git push
 ### 1- Con el `git log --oneline --all` visualizamos nuestros commits
 
 <img width="503" alt="Captura de pantalla 2022-12-01 a las 18 19 32" src="https://user-images.githubusercontent.com/87373226/205118200-d42af376-ef64-49fa-bc39-46dbeeb4d809.png">
-<img width="481" alt="Captura de pantalla 2022-12-01 a las 18 19 22" src="https://user-images.githubusercontent.com/87373226/205118409-a4dc8868-358d-4d5c-a66d-3742cca9645b.png">
+
+<img width="345" alt="Captura de pantalla 2022-12-01 a las 18 24 05" src="https://user-images.githubusercontent.com/87373226/205120074-aa8839b9-81d4-470c-9d02-04cd34fbbadb.png">
+
+### 2- Nos movemos por los commits y vemos sus cambios
+
+Como podemos ver tenemos varios commits, vamos a trabajar sobre los tres ultimos commits del Readme
+
+Ahora nos movemos al commit Readme 1 y vemos su contenido con:
+
+~~~
+git checkout 6368
+cat README2.md
+~~~
+
+<img width="573" alt="Captura de pantalla 2022-12-01 a las 18 28 57" src="https://user-images.githubusercontent.com/87373226/205120373-190815dc-a8f4-44ac-a700-991e18426fb5.png">
+
+Vemos con el `git log --oneline --all` que nos encontramos en el primer commit del Readme
+
+<img width="322" alt="Captura de pantalla 2022-12-01 a las 18 30 33" src="https://user-images.githubusercontent.com/87373226/205120675-2f81d363-d4ff-41a7-a8f7-5532a5fd4129.png">
+
+### 3- Nos movemos al segundo commit
+
+Con el `git checkout ef68` nos vamos el segundo commit y repetimos el proceso para ver que contiene el README2.md, despues con el `git log --oneline --all` vemos que nos encontramos en el segundo.
+
+<img width="508" alt="Captura de pantalla 2022-12-01 a las 18 33 23" src="https://user-images.githubusercontent.com/87373226/205121272-3e5728ec-c2fb-4b26-93fb-f148ce6121da.png">
+
+
+<img width="314" alt="Captura de pantalla 2022-12-01 a las 18 33 47" src="https://user-images.githubusercontent.com/87373226/205121360-00f4683e-bed0-47b8-9c4f-fa6755856682.png">
+
+### 4- Finalmente con el `git checkout main` volvemos al commit actual
+
+<img width="495" alt="Captura de pantalla 2022-12-01 a las 18 36 08" src="https://user-images.githubusercontent.com/87373226/205121765-61f738d6-72bf-442d-b7d8-965784f30dc2.png">
+
+Comprobamos con el `git log --oneline --all` que ya estamos en la actual
+
+<img width="481" alt="Captura de pantalla 2022-12-01 a las 18 19 22" src="https://user-images.githubusercontent.com/87373226/205121823-0382847f-fe3a-4189-a46d-6d6d82b60b76.png">
+
+
 
 
 
