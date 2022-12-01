@@ -65,6 +65,8 @@ Con el `git checkout ef68` nos vamos el segundo commit y repetimos el proceso pa
 
 <img width="495" alt="Captura de pantalla 2022-12-01 a las 18 36 08" src="https://user-images.githubusercontent.com/87373226/205121765-61f738d6-72bf-442d-b7d8-965784f30dc2.png">
 
+<img width="206" alt="Captura de pantalla 2022-12-01 a las 18 49 07" src="https://user-images.githubusercontent.com/87373226/205124662-b706da66-5d8a-4e33-9f57-7cfe83d56cc4.png">
+
 Comprobamos con el `git log --oneline --all` que ya estamos en la actual
 
 <img width="481" alt="Captura de pantalla 2022-12-01 a las 18 19 22" src="https://user-images.githubusercontent.com/87373226/205121823-0382847f-fe3a-4189-a46d-6d6d82b60b76.png">
